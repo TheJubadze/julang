@@ -2,7 +2,8 @@ package lexer
 
 import (
 	"testing"
-	"token"
+
+	"github.com/TheJubadze/julang/token"
 )
 
 func TestNextToken(t *testing.T) {

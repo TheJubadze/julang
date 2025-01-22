@@ -4,8 +4,9 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"lexer"
-	"token"
+
+	"github.com/TheJubadze/julang/lexer"
+	"github.com/TheJubadze/julang/token"
 )
 
 const PROMPT = ">> "

@@ -3,6 +3,8 @@
 public class Token(TokenType type, string literal) {
     public TokenType Type { get; } = type;
     public string Literal { get; } = literal;
+
+    public override string ToString() => $"{{ Type: {Type}, Literal: \"{Literal}\" }}";
 }
 
 public enum TokenType {
